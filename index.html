@@ -1166,6 +1166,7 @@ function renderDownload(){
   document.getElementById("dlBtnFile").textContent = p.file;
   document.getElementById("dlNote").textContent = t[p.note];
   document.getElementById("dlMain").setAttribute("href", p.url);
+  document.getElementById("dlMain").setAttribute("target", "_blank");
 }
 
 /* language dropdown */
